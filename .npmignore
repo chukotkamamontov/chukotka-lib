@@ -1,0 +1,6 @@
+src/
+vite.config.js
+tsconfig.json
+index.html
+node_modules/
+*.log
