@@ -1,4 +1,4 @@
-import { Button } from 'champ-ui';
+import { Button } from 'chukotka-ui';
 
 function App() {
 

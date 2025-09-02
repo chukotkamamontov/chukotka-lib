@@ -16,15 +16,15 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      'champ-ui': resolve(__dirname, 'lib/index.ts')
+      'chukotka-ui': resolve(__dirname, 'lib/index.ts')
     }
   },
   build: {
     lib: {
       entry: resolve(__dirname, 'lib/index.ts'),
-      name: 'champ-ui',
+      name: 'chukotka-ui',
       formats: ['es', 'cjs'],
-      fileName: (format) => `champ-ui.${format === 'es' ? 'esm.js' : 'cjs'}`,
+      fileName: (format) => `chukotka-ui.${format === 'es' ? 'esm.js' : 'cjs'}`,
     },
     rollupOptions: {
       external: ['react', 'react-dom', 'react/jsx-runtime'],
