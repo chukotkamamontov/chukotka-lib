@@ -7,3 +7,10 @@
 ```
 husky - install command is DEPRECATED
 ```
+
+# Pre-commit
+
+```
+husky - install command is DEPRECATED
+```
+
